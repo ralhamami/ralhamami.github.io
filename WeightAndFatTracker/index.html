@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Weight and Fat Tracker</title>
+		<link href="css/styles.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	</head>
+	<body>
+		<div>
+		<h1>Weight and Fat Tracker</h1>
+		<img src="assets/scale.png">
+		</div>
+		<form id="entryForm>
+			<label for="date">Date</label>
+			<input id="date" type="date">
+			<label for="weight">Weight</label>
+			<input id="weight" type="number">
+			<label for="fat">Fat Percentage</label>
+			<input id="fat" type="number">
+			<button>Add</button>
+		</form>
+		<canvas id="chart"></canvas>
+		<ul>
+		</ul>
+		<table>
+			<tr>
+				<th>Date</th>
+				<th>Weight</th>
+				<th>Fat</th>
+				<th>Delete?</th>
+			<tr>
+		</table>
+		<script src="js/index.js"></script>
+	</body>
+</html>
