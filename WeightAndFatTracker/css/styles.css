@@ -65,5 +65,14 @@ h1{
 }
 
 img{
+	height:auto;
 	max-width:5%;
+	min-width:100px;
+}
+
+@media screen and (max-width: 1043px) {
+  label, input {
+    width: 100%;
+    margin-top: 0;
+  }
 }
